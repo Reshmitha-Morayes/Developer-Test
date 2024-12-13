@@ -1,0 +1,234 @@
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+.btn-sub {
+    color: #fff;
+    text-shadow: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-sub:hover,
+.btn-sub:focus {
+    background-color: #B2BEB5;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW4lMjBzdGFyc3xlbnwwfHwwfHx8MA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 300px #000;
+    background: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-wrapper {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cover {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.innerHeader {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.topic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.nav {
+    text-align: center;
+    display: flex;
+    margin-right: 100px;
+}
+
+.nav-link.nav-social {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.nav-link.nav-social:hover {
+    color: #636468; 
+}
+
+.nav .nav-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.body-cover {
+    padding: 0 20px;
+}
+
+.body-cover .btn-add {
+    padding: 10px 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.heading {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.heading-para {
+    max-width: 500px;
+    margin: 0 auto 3rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+#exampleModal .modal-content {
+    background-color: #303546;
+    color: #fff;
+    text-align: left;
+    border: 2px solid #000;
+}
+
+#exampleModal .modal-header,
+#exampleModal .modal-footer {
+    border: 0;
+}
+
+#exampleModal .close {
+    color: #fff;
+}
+
+#exampleModal .form-control {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+#exampleModal .form-control:focus {
+    border-color: #303546;
+}
+
+@media (max-width: 768px) {
+    .heading {
+      font-size: 1.8rem;
+      letter-spacing: 5px;
+    }
+  
+    .heading-para {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  
+    .btn-add,
+    .btn-sub {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  
+    .topic {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .nav {
+        justify-content: center; 
+        margin: 10px 0;
+    }
+  
+    .navbar .nav-link {
+      font-size: 1rem;
+      margin: 0 5px;
+    }
+
+    .body-cover {
+        padding: 0 10px; 
+    }
+
+    #exampleModal .modal-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 1.5rem; 
+    }
+
+    .heading-para {
+        font-size: 0.9rem; 
+    }
+
+    .btn-add,
+    .btn-sub {
+        font-size: 0.8rem;
+        padding: 6px 12px; 
+    }
+
+    .innerHeader {
+        flex-direction: row; 
+        align-items: center; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        text-align: center;
+    }
+
+    .topic {
+        width: 100%; 
+        font-size: 1rem;
+        margin-bottom: 10px; 
+    }
+
+    .nav {
+        width: 100%; 
+        justify-content: center; 
+        margin-top: 0;
+    }
+
+    .nav .nav-link {
+        margin: 5px 10px; 
+    }
+
+}
